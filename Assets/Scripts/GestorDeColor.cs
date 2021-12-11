@@ -9,6 +9,7 @@ public class GestorDeColor : MonoBehaviour
    [SerializeField] private Transform circuloRotacionTransf;
    [SerializeField] private Image [] imagenACambiarDeColor;
    [SerializeField] private Image morado, amarillo, verde, rojo, azul, azulcielo;
+   [SerializeField] private Material sphereMaterial;
    private float rotacion;
    
    private void Update()
@@ -19,6 +20,7 @@ public class GestorDeColor : MonoBehaviour
       if (rotacion >= 327 || rotacion < 30)
       {
          CambiarColor(amarillo);
+         
       }
       else if (rotacion > 274 && rotacion < 327)
       {
@@ -49,5 +51,7 @@ public class GestorDeColor : MonoBehaviour
       {
          imagenACambiarDeColor[i].color = imagen.color;
       }
+
+      sphereMaterial.color = imagen.color;
    }
 }

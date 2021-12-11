@@ -29,8 +29,13 @@ public class SliderControl : MonoBehaviour
       _inputField.text = valorSlider.ToString();
       
       textoBlanco.text = numeroBlanco.ToString() + "k" + "/" + (multiplicadorBlanco * valorSlider).ToString();
+      
       textoVerde.text = numeroVerde.ToString() + "k" + "/" + (multiplicadorVerde * valorSlider).ToString();
       textoAzul.text = numeroAzul.ToString() + "k" + "/" + (multiplicadorAzul * valorSlider).ToString();
+      
+      
+      
+      
       textoMultiplicadorVisual.text = "X" + valorSlider.ToString();
    }
 
