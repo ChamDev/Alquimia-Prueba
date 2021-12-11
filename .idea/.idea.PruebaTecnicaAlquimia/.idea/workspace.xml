@@ -8,6 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GestorDeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/SwipeMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenusManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="227tBWsuK7lINZMRLSXQ7Y6aN1p" />
