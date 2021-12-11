@@ -94,6 +94,11 @@ public class SwipeMenu : MonoBehaviour
         {
             if (usandoCursor)
             {
+                if (_menusManager.Index == imagenARotar.Length - 2)
+                {
+                    imagenARotar[_menusManager.Index + 1].Rotate(0, 0, -sensibilidadCursor);
+                }
+                
                 imagenARotar[_menusManager.Index].Rotate(0, 0, -sensibilidadCursor);
             }
             else
@@ -109,6 +114,11 @@ public class SwipeMenu : MonoBehaviour
         {
             if (usandoCursor)
             {
+                if (_menusManager.Index == imagenARotar.Length - 2)
+                {
+                    imagenARotar[_menusManager.Index + 1].Rotate(0, 0, sensibilidadCursor);
+                }
+                
                 imagenARotar[_menusManager.Index].Rotate(0, 0, sensibilidadCursor);
             }
             else
